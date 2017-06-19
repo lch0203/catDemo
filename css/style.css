@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body, button, input, select, textarea {
+    font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+
+.site-hd{
+
+}
+.nav{
+
+}
+
+.logo,menu,social{
+
+}
+
+.wrapper{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 330373 */
+    src: url('http://at.alicdn.com/t/font_d8ffm6d6alaexw29.eot');
+    src: url('http://at.alicdn.com/t/font_d8ffm6d6alaexw29.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_d8ffm6d6alaexw29.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_d8ffm6d6alaexw29.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_d8ffm6d6alaexw29.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family: iconfont;
+    font-style: normal;
+}
+
+li{
+
+}
+
+.weibo::before {
+    content: "\e600";
+}
+
+.weixin::before {
+    content: "\e600";
+}
+
+.logo{
+    display: block;
+    width: 204px;
+    height: 60px;
+    background: url("../img/logn.png") no-repeat center ;
+    text-indent:-9999em;
+}
+
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    content: '';
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+
+
+.menu li{
+    float: left;
+}
+
+.social li{
+
+}
+
+.menu,
+.social {
+    float: right;
+}
+
+.menu li {
+    float: left;
+}
+
+.social li {
+    display: inline-block;
+}
